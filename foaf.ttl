@@ -19,10 +19,4 @@
   foaf:mbox_sha1sum "624ed903a51bad5b76bc515a385b761b4c445b27" ;
   foaf:homepage <https://www.facebook.com/profile.php?id=1686725346> ;
   foaf:phone <tel:047223305> ;
-  foaf:schoolHomepage <https://finki.ukim.mk/> ;
-  foaf:knows [
-    a foaf:Person ;
-    foaf:name "Dimitar" ;
-    foaf:mbox_sha1sum "1c7340cbeb6c1bfcb67e3f86ebeac9ea56679351";
-    rdfs:seeAlso: <https://raw.githubusercontent.com/dimitar-papalazov/foaf/master/foaf.ttl>
-  ] .
+  foaf:schoolHomepage <https://finki.ukim.mk/> .
