@@ -1,1 +1,32 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns0: <http://webns.net/mvcb/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
+<https://raw.githubusercontent.com/AngelaSotirovska/foaf/main/foaf.ttl>
+  a foaf:PersonalProfileDocument ;
+  foaf:maker <https://raw.githubusercontent.com/AngelaSotirovska/foaf/main/foaf.ttl> ;
+  foaf:primaryTopic <https://raw.githubusercontent.com/AngelaSotirovska/foaf/main/foaf.ttl> .
+
+<https://raw.githubusercontent.com/AngelaSotirovska/foaf/main/foaf.ttl>
+  a foaf:Person ;
+  foaf:name "Angela Sotirovska" ;
+  foaf:title "Mrs" ;
+  foaf:givenname "Angela" ;
+  foaf:family_name "Sotirovska" ;
+  foaf:nick "Papaz" ;
+  foaf:mbox_sha1sum "624ed903a51bad5b76bc515a385b761b4c445b27" ;
+  foaf:homepage <https://www.facebook.com/profile.php?id=1686725346> ;
+  foaf:phone <tel:047223305> ;
+  foaf:schoolHomepage <https://finki.ukim.mk/> ;
+  foaf:knows [
+    a foaf:Person ;
+    foaf:name "Dimitar" ;
+    foaf:mbox_sha1sum "1c7340cbeb6c1bfcb67e3f86ebeac9ea56679351";
+    rdfs:seeAlso: <https://raw.githubusercontent.com/dimitar-papalazov/foaf/master/foaf.ttl>
+  ], [
+    a foaf:Person ;
+    foaf:name "Viktor" ;
+    foaf:mbox_sha1sum "2b99bd9a02068affe55229508d2947f25578089c"
+    rdfs:seeAlso: <https://www.dropbox.com/s/zngkifjp1euxnqi/foaf.ttl?dl=1>
+  ] .
