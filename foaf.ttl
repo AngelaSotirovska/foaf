@@ -21,13 +21,13 @@
   foaf:phone <tel:047223305> ;
   foaf:schoolHomepage <https://finki.ukim.mk/> ;
   foaf:knows [
-      a foaf:Person ;
-      foaf:name "Dimitar" ;
-      foaf:mbox_sha1sum "1c7340cbeb6c1bfcb67e3f86ebeac9ea56679351";
-      rdfs:seeAlso <https://raw.githubusercontent.com/dimitar-papalazov/foaf/master/foaf.ttl>
-    ], [
-      a foaf:Person ;
-      foaf:name "Viktor" ;
-      foaf:mbox_sha1sum "2b99bd9a02068affe55229508d2947f25578089c";
-      rdfs:seeAlso <https://www.dropbox.com/s/zngkifjp1euxnqi/foaf.ttl?dl=1>
-    ].
+     a foaf:Person ;
+     foaf:name "Dimitar" ;
+     foaf:mbox_sha1sum "1c7340cbeb6c1bfcb67e3f86ebeac9ea56679351";
+     rdfs:seeAlso <https://raw.githubusercontent.com/dimitar-papalazov/foaf/master/foaf.ttl>
+   ], [
+     a foaf:Person ;
+     foaf:name "Viktor" ;
+     foaf:mbox_sha1sum "2b99bd9a02068affe55229508d2947f25578089c";
+     rdfs:seeAlso <https://www.dropbox.com/s/zngkifjp1euxnqi/foaf.ttl?dl=1>
+   ].
