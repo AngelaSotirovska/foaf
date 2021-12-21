@@ -27,7 +27,7 @@
      rdfs:seeAlso <https://raw.githubusercontent.com/dimitar-papalazov/foaf/master/foaf.ttl>
    ], [
      a foaf:Person ;
-     foaf:name "Viktor" ;
+     foaf:name "Emilija" ;
      foaf:mbox_sha1sum "2b99bd9a02068affe55229508d2947f25578089c";
-     rdfs:seeAlso <https://www.dropbox.com/s/zngkifjp1euxnqi/foaf.ttl?dl=1>
+     rdfs:seeAlso <https://github.com/GeorgievskaEmilija/wbs-foaf/blob/master/foaf.ttl>
    ].
